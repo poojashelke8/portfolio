@@ -11,7 +11,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 const Body  = styled.div`
 background-color: ${({theme}) => theme.bg};
 width:100%;
-height:100px;
+// height:100px;
 overflow-x:hidden;
 `;
 
