@@ -8,6 +8,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Education from './Components/Education/Education';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Experience from './Components/Experience/Experience';
+import Projects from './Components/Projects/Projects';
 
 const Body  = styled.div`
 background-color: ${({theme}) => theme.bg};
@@ -33,7 +34,11 @@ function App() {
         <Wrapper>
         <Skills/>
         <Experience/>
-        <Education/>
+        {/* <Education/> */}
+        </Wrapper>
+        <Projects/>
+        <Wrapper>
+          <Education/>
         </Wrapper>
       </Body>
       </Router>
