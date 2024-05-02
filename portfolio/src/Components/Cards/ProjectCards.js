@@ -17,7 +17,7 @@ const Button = styled.button`
 `
 const Card = styled.div`
     width: 330px;
-    height: 490px;
+    height: 390px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -121,7 +121,7 @@ const Description = styled.div`
 const ProjectCards = ({project,setOpenModal}) => {
     return (
         <Card>
-            <Image src={project.image}/>
+            {/* <Image src={project.image}/> */}
             <Tags>
                 {project.tags?.map((tag, index) => (
                 <Tag>{tag}</Tag>
