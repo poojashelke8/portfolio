@@ -5,13 +5,14 @@ import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, Hero
 import { Bio } from '../../data/constants'
 import TypeWriter from "typewriter-effect"
 //import HeroImg from '../../Images/HeroImage.jpg'
+// import HeroImg from "portfolio/src/Images/HeroImg.jpeg";
 
 const HeroSection = () => {
   return (
     <div id="about">
       <HeroContainer>
       <HeroBg>
-        <HeroBgAnimation />
+        {/* <HeroBgAnimation /> */}
       </HeroBg>
       <HeroInnerContainer>
           <HeroLeftContainer>
@@ -31,9 +32,9 @@ const HeroSection = () => {
             <SubTitle>{Bio.description}</SubTitle>
             <ResumeButton href={Bio.resume} target="display">Check Resume</ResumeButton>
           </HeroLeftContainer> 
-          <HeroRightContainer>
-          {/* <Img src={HeroImg} alt="hero-image" /> */}
-          </HeroRightContainer>
+          <HeroRightContainer id="Right">
+          {/* <img src="portfolio\src\Images\HeroImg.jpg" alt="Description of the image" /> */}
+                    </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
 
