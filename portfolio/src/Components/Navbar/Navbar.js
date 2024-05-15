@@ -9,6 +9,15 @@ import { Bio } from '../../data/constants';
 const Navbar = () => {
   const [isOpen,setIsOpen] = useState(false);
   const theme = useTheme();
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <Nav>
       <NavbarContainer>
@@ -42,10 +51,8 @@ const Navbar = () => {
       {
         isOpen && (
           <MobileMenu isOpen={isOpen}>
-            {/* <MobileMenuLink href="#about" onClick={() => {
-              setIsOpen(!isOpen)
-            }}>About</MobileMenuLink>
-            <MobileMenuLink href='#skills' onClick={() => {
+            {/* <MobileMenuLink href="#about" onClick={closeMenu}>About</MobileMenuLink> */}
+            {/* <MobileMenuLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileMenuLink>
             <MobileMenuLink href='#experience' onClick={() => {
