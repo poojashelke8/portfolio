@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {DiCssdeck} from "react-icons/di";
 import {FaBars} from "react-icons/fa";
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileMenuLink, MobileNavLogo, MobileLink } from "../Navbar/NavbarStyled"
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu} from "../Navbar/NavbarStyled"
 import { useTheme } from 'styled-components';
 import { Bio } from '../../data/constants';
 
@@ -10,13 +10,13 @@ const Navbar = () => {
   const [isOpen,setIsOpen] = useState(false);
   const theme = useTheme();
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+  // const toggleMenu = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
-  const closeMenu = () => {
-    setIsOpen(false);
-  };
+  // const closeMenu = () => {
+  //   setIsOpen(false);
+  // };
 
   return (
     <Nav>

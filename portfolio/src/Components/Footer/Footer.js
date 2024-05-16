@@ -1,8 +1,9 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
+// import FacebookIcon from '@mui/icons-material/Facebook';
+// import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
+// import InstagramIcon from '@mui/icons-material/Instagram';
+import GithubIcon from "@mui/icons-material/GitHub"
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -31,35 +32,35 @@ const Logo = styled.h1`
   color: ${({ theme }) => theme.primary};
 `;
 
-const Nav = styled.nav`
-  width: 100%;
-  max-width: 800px;
-  margin-top: 0.5rem;
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  justify-content: center;
-  @media (max-width: 768px) {
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    text-align: center;
-    font-size: 12px;
-  }
-`;
+// const Nav = styled.nav`
+//   width: 100%;
+//   max-width: 800px;
+//   margin-top: 0.5rem;
+//   display: flex;
+//   flex-direction: row;
+//   gap: 2rem;
+//   justify-content: center;
+//   @media (max-width: 768px) {
+//     flex-wrap: wrap;
+//     gap: 1rem;
+//     justify-content: center;
+//     text-align: center;
+//     font-size: 12px;
+//   }
+// `;
 
-const NavLink = styled.a`
-color: ${({ theme }) => theme.text_primary};
-  text-decoration: none;
-  font-size: 1.2rem;
-  transition: color 0.2s ease-in-out;
-  &:hover {
-    color: ${({ theme }) => theme.primary};
-  }
-  @media (max-width: 768px) {
-    font-size: 1rem;
-  }
-`;
+// const NavLink = styled.a`
+// color: ${({ theme }) => theme.text_primary};
+//   text-decoration: none;
+//   font-size: 1.2rem;
+//   transition: color 0.2s ease-in-out;
+//   &:hover {
+//     color: ${({ theme }) => theme.primary};
+//   }
+//   @media (max-width: 768px) {
+//     font-size: 1rem;
+//   }
+// `;
 
 const SocialMediaIcons = styled.div`
   display: flex;
@@ -97,10 +98,8 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav> */}
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.insta} target="display"><GithubIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2023 Pooja Shelke. All rights reserved.

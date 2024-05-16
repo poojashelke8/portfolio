@@ -9,7 +9,7 @@ import Education from './Components/Education/Education';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Experience from './Components/Experience/Experience';
 import Projects from './Components/Projects/Projects';
-import Contact from './Components/Contact/Contact';
+// import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 
 const Body  = styled.div`
@@ -36,12 +36,10 @@ function App() {
         <Wrapper>
         <Skills/>
         <Experience/>
-        {/* <Education/> */}
         </Wrapper>
         <Projects/>
         <Wrapper>
           <Education/>
-          {/* <Contact/> */}
         </Wrapper>
         <Footer/>
       </Body>

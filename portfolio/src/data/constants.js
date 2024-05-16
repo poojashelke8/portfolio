@@ -8,11 +8,8 @@ export const Bio = {
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/poojashelke8",
-    resume:"",
-    linkedin: "",
-    twitter: "",
-    insta: "",
-    facebook: "",
+    resume:"https://drive.google.com/file/d/1bj48z15bnrs6jmFcUd_LxHOwzJyDgMtI/view?usp=drive_link",
+    linkedin: "https://www.linkedin.com/in/pooja-shelke-b347a31a4/",
   };
 
   export const skills = [
