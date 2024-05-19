@@ -131,7 +131,6 @@ export const Bio = {
         "Jest",
         "RTL"
       ],
-      // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
     {
       id: 0,
@@ -234,19 +233,14 @@ export const Bio = {
     export const education = [
       {
         id: 0,
-        // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
         school: "Sinhgad College of Engineering, Pune",
         date: "Aug 2019 - May 2022",
-        // grade: "9.02 CGPA",
         degree: "Bachelor of Engineering - BE, Information Technology",
       },
       {
         id: 1,
-        // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
         school: "Sinhgad Institute of Technology, Pune",
         date: "Jul 2016 - Apr 2019",
-        // grade: "88.2%",
-        // desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
         degree: "Technical Diploma - Information Technology",
       }
     ];
