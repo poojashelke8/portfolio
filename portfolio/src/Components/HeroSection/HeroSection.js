@@ -1,7 +1,7 @@
 import React from 'react'
 // import styled from 'styled-components'
 // import HeroBgAnimation from '../HeroBgAnimation/HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, HeroRightContainer, HeroInnerContainer, TextLoop, Title, SubTitle, ResumeButton } from "../HeroSection/HeroStyled"
+import { HeroContainer, HeroLeftContainer, HeroRightContainer, HeroInnerContainer, TextLoop, Title, SubTitle, ResumeButton } from "../HeroSection/HeroStyled"
 import { Bio } from '../../data/constants'
 import TypeWriter from "typewriter-effect"
 //import HeroImg from '../../Images/HeroImage.jpg'
@@ -11,9 +11,9 @@ const HeroSection = () => {
   return (
     <div id="about">
       <HeroContainer>
-      <HeroBg>
+      {/* <HeroBg> */}
         {/* <HeroBgAnimation /> */}
-      </HeroBg>
+      {/* </HeroBg> */}
       <HeroInnerContainer>
           <HeroLeftContainer>
             <Title>Hi, I am <br/>{Bio.name}</Title>

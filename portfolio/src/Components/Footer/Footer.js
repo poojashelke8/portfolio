@@ -99,7 +99,7 @@ function Footer() {
         </Nav> */}
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><GithubIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.github} target="display"><GithubIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2023 Pooja Shelke. All rights reserved.
